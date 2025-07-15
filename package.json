@@ -1,0 +1,39 @@
+{
+  "name": "sekolah-backend",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "db:push": "drizzle-kit push",
+    "format:fix": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@eslint/js": "^9.31.0",
+    "@hono/node-server": "^1.14.1",
+    "@hono/zod-openapi": "^0.19.10",
+    "@hono/zod-validator": "^0.7.1",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@scalar/hono-api-reference": "^0.9.10",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "dotenv": "^17.2.0",
+    "drizzle-orm": "^0.44.2",
+    "drizzle-zod": "^0.8.2",
+    "globals": "^16.3.0",
+    "hono": "^4.7.7",
+    "hono-openapi": "^0.4.8",
+    "pg": "^8.16.3",
+    "postgres": "^3.4.7",
+    "prettier": "^3.6.2",
+    "typescript-eslint": "^8.36.0",
+    "zod": "^3.25.34"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.7.1"
+  }
+}
