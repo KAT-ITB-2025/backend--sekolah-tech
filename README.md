@@ -29,6 +29,15 @@ A brief guide to running this project locally on development.
    bun run db:push
    ```
 
+   Make sure your migrations has applied to the database. You can verify the database using this command:
+
+   ```
+   # Run this command
+   bun run db:studio
+   # then open the link provided (ctrl + click), 
+   # usually the link shown is https://local.drizzle.studio
+   ```
+
 3. **Run the Application**
 
    ```bash
