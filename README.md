@@ -29,7 +29,7 @@ A brief guide to running this project locally on development.
    bun run db:push
    ```
 
-   Make sure your migrations has applied to the database. You can verify the database using this command:
+   Make sure your migrations has been applied to the database. You can verify the database using this command:
 
    ```
    # Run this command
