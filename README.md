@@ -38,6 +38,9 @@ A brief guide to running this project locally on development.
    # usually the link shown is https://local.drizzle.studio
    ```
 
+   You should see this content on the browser. Also the todo table already exists on the database.
+   ![Drizzle studio](docs/studio.png)
+
 3. **Run the Application**
 
    ```bash
