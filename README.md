@@ -27,6 +27,9 @@ A brief guide to running this project locally on development.
 
    # Apply the database schema
    bun run db:push
+
+   # Seed database (optional)
+   bun run db:seed
    ```
 
    Make sure your migrations has been applied to the database. You can verify the database using this command:
@@ -34,7 +37,7 @@ A brief guide to running this project locally on development.
    ```
    # Run this command
    bun run db:studio
-   # then open the link provided (ctrl + click), 
+   # then open the link provided (ctrl + click),
    # usually the link shown is https://local.drizzle.studio
    ```
 
